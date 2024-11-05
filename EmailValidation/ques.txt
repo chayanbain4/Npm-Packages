@@ -1,0 +1,29 @@
+What is the purpose of the assert module in Node.js?
+The assert module is used for testing by checking if specific conditions are met, throwing an error if a condition is false.
+
+How does assert.strictEqual differ from assert.equal?
+assert.strictEqual checks for both value and type equality, while assert.equal only checks for value equality.
+
+What happens when an assertion fails in assert?
+When an assertion fails, assert throws an error, which stops the code execution and shows the failure details.
+
+How would you use assert to verify that a function returns a specific result?
+By using assert.strictEqual(functionName(input), expectedOutput), we can check if the function’s output matches the expected value.
+
+Can assert be used for testing asynchronous code?
+Yes, assert can test asynchronous code when paired with async functions or callbacks, though frameworks like Mocha or Jest offer more features for async testing.
+
+What types of tests are best suited for assert?
+Simple, small-scale unit tests are well-suited for assert, especially when only basic condition checks are needed.
+
+What is the benefit of using assert in test scripts?
+assert is quick and easy to set up, making it ideal for lightweight testing scenarios without additional test dependencies.
+
+What does assert.throws do?
+assert.throws checks that a function throws an error when executed, useful for testing error handling.
+
+Can you customize the error message in assert?
+Yes, assert methods accept an optional custom error message as the last argument, displayed if the assertion fails.
+
+How would you replace assert if your project needs advanced testing features?
+For advanced testing, assert can be replaced with test frameworks like Jest or Mocha, which offer more extensive tools for async code, mock functions, and test reporting.

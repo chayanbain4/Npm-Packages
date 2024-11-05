@@ -1,0 +1,17 @@
+{
+  "name": "emailvalidatorbychayan",
+  "version": "1.0.1",
+  "description": "email validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "emailvalidate"
+  ],
+  "author": "Chayan Bain",
+  "license": "ISC",
+  "dependencies": {
+    "emailvalidatorbychayan": "^1.0.1"
+  }
+}

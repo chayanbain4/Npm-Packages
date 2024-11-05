@@ -1,0 +1,21 @@
+here i used FreeCurrencyAPI for fetching currency data 
+
+Q: What does the async keyword do in JavaScript? A: It allows a function to return a promise and enables the use of await within it for asynchronous operations.
+
+Q: How do you handle errors in an asynchronous function? A: You can use try...catch blocks to catch and handle errors in async functions.
+
+Q: What is the purpose of the await keyword? A: It pauses the execution of an async function until the promise is resolved or rejected.
+
+Q: What is a default export in ES Modules? A: A default export allows you to export a single value or function from a module, which can be imported without curly braces.
+
+Q: How do you import a default export in ES Modules? A: Use the import statement followed by the name you want to use for the import, like import myFunction from './myModule.js';.
+
+Q: What is the purpose of the Freecurrencyapi library in your code? A: It provides a simple interface to fetch the latest currency exchange rates from the Free Currency API.
+
+Q: How can you convert an amount from one currency to another using an API? A: Fetch the latest exchange rates for the desired currencies and multiply the amount by the relevant exchange rate.
+
+Q: What does res.data[toCurrency] do in your currency converter function? A: It retrieves the exchange rate for the specified target currency from the API response data.
+
+Q: How would you test the currency converter function? A: You can create test cases that call the function with known input values and assert that the output matches expected results.
+
+Q: Why is it important to validate API responses in your code? A: Validating API responses ensures your application can handle unexpected or erroneous data gracefully, preventing runtime errors.

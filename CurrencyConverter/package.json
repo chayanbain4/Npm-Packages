@@ -1,0 +1,16 @@
+{
+  "name": "currencyconverterbychayan",
+  "version": "1.0.1",
+  "description": "Convert Currency",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Chayan Bain",
+  "license": "ISC",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1",
+    "currencyconverterbychayan": "^1.0.1"
+  }
+}
